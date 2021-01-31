@@ -1,13 +1,17 @@
-import React from 'react';
+import React from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-export default function Layout({children}){
-
-    return (
+import Typography from "../styles/Typography";
+import "normalize.css";
+import GlobalStyles from "../styles/GlobalStyles";
+export default function Layout({ children }) {
+  return (
     <div>
-    <Nav/>
-    {children}
-    <Footer/>
+      <Typography />
+      <GlobalStyles />
+      <Nav />
+      {children}
+      <Footer />
     </div>
-    )
+  );
 }
