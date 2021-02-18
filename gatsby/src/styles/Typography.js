@@ -1,14 +1,19 @@
 import { createGlobalStyle } from 'styled-components';
 
-import font from '../assets/fonts/frenchfries.woff';
+import font1 from '../assets/fonts/frenchfries.woff';
+import font2 from "../assets/fonts/Allura-Regular.ttf";
 
 const Typography = createGlobalStyle`
   @font-face {
     font-family: FrenchFries;
-    src: url(${font});
+    src: url(${font1});
+  }
+  @font-face {
+    font-family: Allure-Regular;
+    src: url(${font2});
   }
   html {
-    font-family: FrenchFries, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: FrenchFries,Allure-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--black);
   }
   p, li {

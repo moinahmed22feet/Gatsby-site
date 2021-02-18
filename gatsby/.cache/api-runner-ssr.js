@@ -1,4 +1,10 @@
-var plugins = []
+var plugins = [{
+      plugin: require('/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"h27fvo6j","dataset":"production","watchMode":true},
+    }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
