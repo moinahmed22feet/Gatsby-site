@@ -1,13 +1,13 @@
 import React from "react";
 import Nav from "../components/Nav";
 import Layout from "../components/Layout";
-import App from "../pages/App";
+import Trending from "../components/Trending";
 import { graphql } from "gatsby";
 
 export default function Homepage({ data }) {
   return (
     <>
-      <App data={data.allSanityPost} />
+      <Trending data={data.allSanityPost} />
     </>
   );
 }
@@ -16,14 +16,8 @@ export const query = graphql`
   query MyQuery {
     allSanityPost {
       nodes {
+        _rawSlug
         title
-        body {
-          _key
-          _type
-          style
-          list
-          _rawChildren
-        }
         _createdAt
         _id
         _key
@@ -35,17 +29,23 @@ export const query = graphql`
         _rev
         _type
         _updatedAt
-      }
-    }
-    allSanityImageAsset {
-      nodes {
-        fluid(maxWidth: 400) {
-          base64
-          sizes
-          src
-          srcSet
-          srcWebp
-          srcSetWebp
+        mainImage {
+          asset {
+            fluid(
+              maxHeight: 200
+              maxWidth: 200
+              sizes: "200*200"
+              toFormat: PNG
+            ) {
+              base64
+              sizes
+              src
+              srcSet
+              srcSetWebp
+              srcWebp
+              aspectRatio
+            }
+          }
         }
       }
     }
