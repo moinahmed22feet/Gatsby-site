@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-fourth-page-js": hot(preferDefault(require("/Users/moinahmed/Desktop/starter-files/gatsby/src/pages/FourthPage.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/moinahmed/Desktop/starter-files/gatsby/src/pages/index.js"))),
   "component---src-pages-second-page-js": hot(preferDefault(require("/Users/moinahmed/Desktop/starter-files/gatsby/src/pages/SecondPage.js"))),
+  "component---src-pages-storypage-js": hot(preferDefault(require("/Users/moinahmed/Desktop/starter-files/gatsby/src/pages/Storypage.js"))),
   "component---src-pages-third-page-js": hot(preferDefault(require("/Users/moinahmed/Desktop/starter-files/gatsby/src/pages/ThirdPage.js")))
 }
 

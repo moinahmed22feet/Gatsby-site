@@ -1,16 +1,16 @@
-import React from 'react';
-import styled from 'styled-components';
-import stripes from '../assets/images/stripes.svg';
+import React from "react";
+import styled from "styled-components";
+import stripes from "../assets/images/stripes.svg";
 
 const LogoStyles = styled.div`
   /* This value controls the entire size of the logo*/
-  border-radius:50%;  
-  font-size: 6px;
+  border-radius: 50%;
+  font-size: 12px;
   white-space: nowrap;
-  font-size: clamp(1px, 0.75vw, 8px);
+  font-size: clamp(6px, 0.75vw, 12px);
   width: 14em;
   height: 14em;
-  font-family:"Allure-Regular";
+  font-family: "Allure-Regular";
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   margin: 0;
   --borderSize: 1em;
@@ -19,18 +19,18 @@ const LogoStyles = styled.div`
   border: var(--borderSize) solid white;
   display: flex;
   .inner {
-    border-radius:50%;  
+    border-radius: 50%;
     margin: var(--borderSize);
     flex: 1;
     background: white;
-    display: grid;  
+    display: grid;
     grid-template-rows: 20% 1fr 1fr;
     align-content: center;
   }
   .est {
     font-size: 1.5em;
     align-self: center;
-    font-family:Frenchfries;
+    font-family: Frenchfries;
   }
   h1 {
     display: grid;
@@ -108,9 +108,7 @@ export default function Logo() {
       <div className="inner">
         <span className="est">EST 2021</span>
         <h1>
-          <span className="slicks">        
-      Moin Ahmed
-          </span>
+          <span className="slicks">Moin Ahmed</span>
           <span className="slices">Blogpage</span>
         </h1>
       </div>

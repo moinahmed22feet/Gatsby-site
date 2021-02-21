@@ -9,6 +9,8 @@ const GlobalStyles = createGlobalStyle`
     --yellow: #ffc600;
     --white: #fff;
     --grey: #efefef;
+    --darkgrey:rgb(190, 190, 190);
+    --brown:rgba(117, 117, 117, 1);
   }
   html {
     background-image: url(${bg});
@@ -23,7 +25,7 @@ const GlobalStyles = createGlobalStyle`
 
   fieldset {
     border-color: rgba(0,0,0,0.1);
-    border-width: 1px;
+    border-width: 2px;
   }
 
   button {
@@ -62,6 +64,7 @@ const GlobalStyles = createGlobalStyle`
     background-color: var(--red) ;
     border-radius: 6px;
     border: 3px solid var(--white);
+
   }
 
   hr {

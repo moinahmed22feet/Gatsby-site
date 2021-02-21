@@ -1,9 +1,14 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
-import font1 from '../assets/fonts/frenchfries.woff';
+import font1 from "../assets/fonts/frenchfries.woff";
 import font2 from "../assets/fonts/Allura-Regular.ttf";
+import font3 from "../assets/fonts/Roboto-Thin.ttf";
 
 const Typography = createGlobalStyle`
+@font-face {
+  font-family: Roboto;
+  src: url(${font3});
+}
   @font-face {
     font-family: FrenchFries;
     src: url(${font1});

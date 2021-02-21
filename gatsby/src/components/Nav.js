@@ -3,6 +3,10 @@ import { Link } from "gatsby";
 import styled from "styled-components";
 import Logo from "../components/Logo";
 const NaV = styled.nav`
+.logo {
+
+  transform:translateY(-35%)
+}
   ul {
     list-style: none;
     text-align: center;
@@ -10,6 +14,7 @@ const NaV = styled.nav`
     flex-style: row;
     justify-content: space-evenly;
     align-items: center;
+    padding:0;
   }
   a {
     text-decoration: none;
@@ -21,6 +26,7 @@ const NaV = styled.nav`
 
     &:nth-of-type(1) {
       --rotate: -8deg;
+
     }
     &:nth-of-type(2) {
       --rotate: 10deg;
@@ -45,19 +51,19 @@ export default function Nav() {
     <NaV>
       <ul>
         <li>
-          <Link to="/FirstPage">FirstPage</Link>
+          <Link to="/FirstPage">First Page</Link>
         </li>
         <li>
-          <Link to="/SecondPage">SecondPage</Link>
+          <Link to="/SecondPage">Second Page</Link>
         </li>
         <li>
-          <Logo/>
+          <Logo />
         </li>
         <li>
-          <Link to="/ThirdPage">ThirdPage</Link>
+          <Link to="/ThirdPage">Third Page</Link>
         </li>
         <li>
-          <Link to="/FourthPage">fourthPage</Link>
+          <Link to="/FourthPage">fourth Page</Link>
         </li>
       </ul>
     </NaV>
