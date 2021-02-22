@@ -15,15 +15,15 @@
           }
         },
         {
-          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
@@ -31,7 +31,10 @@
         {
           "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -47,15 +50,15 @@
           "options": {}
         },
         {
-          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         },
         {
@@ -71,7 +74,10 @@
         {
           "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -87,15 +93,15 @@
           "options": {}
         },
         {
-          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         },
         {
@@ -111,7 +117,10 @@
         {
           "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -127,15 +136,15 @@
           "options": {}
         },
         {
-          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         },
         {
@@ -151,7 +160,10 @@
         {
           "name": "/Users/moinahmed/Desktop/starter-files/gatsby/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],

@@ -9,6 +9,7 @@ exports.components = {
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-second-page-js": () => import("./../../../src/pages/SecondPage.js" /* webpackChunkName: "component---src-pages-second-page-js" */),
   "component---src-pages-storypage-js": () => import("./../../../src/pages/Storypage.js" /* webpackChunkName: "component---src-pages-storypage-js" */),
-  "component---src-pages-third-page-js": () => import("./../../../src/pages/ThirdPage.js" /* webpackChunkName: "component---src-pages-third-page-js" */)
+  "component---src-pages-third-page-js": () => import("./../../../src/pages/ThirdPage.js" /* webpackChunkName: "component---src-pages-third-page-js" */),
+  "component---src-templates-story-page-js": () => import("./../../../src/templates/StoryPage.js" /* webpackChunkName: "component---src-templates-story-page-js" */)
 }
 
