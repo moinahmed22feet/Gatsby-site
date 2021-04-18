@@ -42,6 +42,12 @@ export default {
       },
     },
     {
+      name: "imagesGallery",
+      title: "Images gallery",
+      type: "array",
+      of: [{ type: "image" }],
+    },
+    {
       name: "categories",
       title: "Categories",
       type: "array",
