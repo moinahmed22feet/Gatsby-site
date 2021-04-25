@@ -3,17 +3,21 @@ import { graphql, Link } from "gatsby";
 import Img from "gatsby-image";
 import styled from "styled-components";
 import { device } from "../styles/Device";
-
+const Grid_repeat_61fr = styled.div`
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+`;
 const Storygrid = styled.div`
   margin: 3rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-column: 1/3;
   gap: 2rem;
   @media ${device.mobileM} {
     display: none;
   }
   p {
-    font-size: 3rem;
+    font-size: 1rem;
     margin-top: auto;
     color: var(--darkgrey);
   }
@@ -38,17 +42,18 @@ const H1 = styled.h1`
 
 const BigStorystyles = styled.div`
   display: grid;
-  grid-template-columns: 2fr 6fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 0.5rem;
 `;
 
 function BigStory({ story, index }) {
+  debugger;
   return (
     <React.Fragment>
       <BigStorystyles>
         <div>
           <div>{story.title}</div>
-          <p>{story._rawBody ? story._rawBody[0].children[0].text : "Null"}</p>
+          <p>{story._rawBody[0].children[0].text.substring(0, 80) + "..."}</p>
         </div>
         <div>
           <Link to={`/story/${story._rawSlug.current}`}>
@@ -65,11 +70,13 @@ export default function Trending({ data }) {
   return (
     <>
       <H1>Trending</H1>
-      <Storygrid>
-        {data.nodes.map((item, index) => (
-          <BigStory key={item._id} story={item} index={index} />
-        ))}
-      </Storygrid>
+      <Grid_repeat_61fr>
+        <Storygrid>
+          {data.nodes.map((item, index) => (
+            <BigStory key={item._id} story={item} index={index} />
+          ))}
+        </Storygrid>
+      </Grid_repeat_61fr>
     </>
   );
 }
